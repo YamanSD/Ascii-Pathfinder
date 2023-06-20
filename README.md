@@ -32,6 +32,8 @@ This is a pathfinding algorithms visualizer written in Python using the Pygame l
 - 1: Select start (S) or end (E) blocks, if possible
 - 2: Select walls (#)
 - 3: Select hubs (H)
+- Left-Click: Place selected block
+- Right-Click Erase selected block
 - Q: Change to previous algorithm
 - E: Change to next algorithm
 - Space: Start search
@@ -42,4 +44,14 @@ This is a pathfinding algorithms visualizer written in Python using the Pygame l
 
 ## Background
 
--
+- This was meant to be a final project of a university workshop, but plans were changed. Consequently:
+  -  The project uses PyGame
+  -  The documentation is not complete nor comprehensive
+  -  There are some bugs in the controls
+  -  There are some bugs in the hub
+- I am not planning on fixing the project in the near future, might revisit it later using different technologies.
+- The order of traversal for the hubs is FIFO, then followed by the end node.
+
+## Demo
+
+[This is a gif]()

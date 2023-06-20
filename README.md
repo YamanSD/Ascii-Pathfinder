@@ -1,2 +1,1 @@
-# Ascii-Pathfinder
-Pathfinding algorithms visualizer written in Python using PyGame
+Pathfinding algorithms visualizer using ascii characters.

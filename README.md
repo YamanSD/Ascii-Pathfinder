@@ -10,7 +10,7 @@ This is a pathfinding algorithms visualizer written in Python using the Pygame l
 - ASCII Map Representation: The program uses ASCII characters to simply represent the map.
 - Dynamic Map: You can add and delete elements of the ascii map.
 - Map File Support: You can read maps from text files. 
-- Pathfinding Algorithms: The visualizer implements the following pathfinding algorithms:
+- Pathfinding Algorithms:
   - Breadth-First Search (BFS)
   - Depth-First Search (DFS)
   - A-Star (A*)
@@ -27,4 +27,19 @@ This is a pathfinding algorithms visualizer written in Python using the Pygame l
 2. Inside the repository file, execute `pip3 install -r requirements.txt`
 3. Run [main.py](./main.py)
 
+## Controls
 
+- 1: Select start (S) or end (E) blocks, if possible
+- 2: Select walls (#)
+- 3: Select hubs (H)
+- Q: Change to previous algorithm
+- E: Change to next algorithm
+- Space: Start search
+- R: Clear map
+- T: Reload map from file (basic_maze.txt)
+- Y: Resets map to pre-search state
+- ESC: Exit the program
+
+## Background
+
+-

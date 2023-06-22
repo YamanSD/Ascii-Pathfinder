@@ -42,7 +42,7 @@ This is a pathfinding algorithms visualizer written in Python using the Pygame l
 - Y: Resets map to pre-search state
 - ESC: Exit the program
 
-## Background
+## Additional Information
 
 - This was meant to be a final project of a university workshop, but plans were changed. Consequently:
   -  The project uses PyGame
@@ -51,7 +51,47 @@ This is a pathfinding algorithms visualizer written in Python using the Pygame l
   -  There are some bugs in the hub
 - I am not planning on fixing the project in the near future, might revisit it later using different technologies.
 - The order of traversal for the hubs is FIFO, then followed by the end node.
+- The screen is 100x39 characters.
+
+## [Basic maze file](./basic_maze.txt)
+```
+S                                      #
+######################################H#
+#                                      ####
+############################## ############
+#                              #          #
+#  #############################          #                              H
+#                                         #
+#                                         #
+#########################################
+                                        ##
+######################################### #
+EH                                        #
+# #################################################################################################
+# #
+# # #################################################################################################
+# # #
+# # #
+# # #
+# # #
+# # ######################
+# #                      #
+# ##################### ##
+#                       ##
+                      # ###########################################
+                      # #
+                      # #
+                      # #
+                      # #
+                      # #
+                      # #
+                      # #
+                      # #
+                      # #
+                      # #
+                      # #
+                      #
+```
 
 ## Demo
-
 [This is a gif]()

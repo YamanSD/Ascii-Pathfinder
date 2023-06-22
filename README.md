@@ -94,4 +94,4 @@ EH                                        #
 ```
 
 ## Demo
-[This is a gif](/Images/AsciiMaze.gif)
+![Demo](./Images/AsciiMaze.gif)
